@@ -1,0 +1,140 @@
+body {
+background-color:rgb(12, 183, 226);
+font-family: 'Times New Roman', Times, serif;
+}
+
+.main {
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 100px;
+    border: 3px solid white; 
+}
+.main .left {
+    width: 50%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    background: rgba(236, 20, 20, 0.89);
+    position: relative;
+
+}
+.main .left h1 {
+    margin-top: 100px;
+
+}
+.left form input {
+text-align: center;
+width: 50%;
+height: 35px;
+margin-bottom: 10px;
+border: none;
+background: rgb(248, 248, 246);
+border-radius: 25px;
+}
+.left form input:focus {
+    outline:none;
+
+}
+.left form input[type="submit"] {
+    background: #08f1f1b6;
+    color: #fff;
+cursor: pointer;
+width:25%;
+font-weight: bold;
+}
+.left form input[type="submit"]:hover {
+    background: rgb(11, 12, 12);
+    }
+    .left form input[type="cancel"] {
+        background: #08f1f1b6;
+        color: #fff;
+    cursor: pointer;
+    width:25%;
+    font-weight: bold;
+    }
+    .left form input[type="cancel"]:hover {
+        background: rgb(11, 12, 12);
+        }
+    .left p.forgot:hover{
+        cursor:pointer;
+        text-decoration: underline;
+        color:rgb(20, 197, 228);
+    }
+    .left p.or {
+        font-size: 15px;
+        width: 40px;
+        height: 30px;
+        padding-top: 10px;
+        background:  rgb(243, 4, 4);
+        border-radius: 50%;
+        position: absolute;
+        left: 96%;
+        color:azure;
+    }
+.main .right {
+    text-align: center;
+}
+.main .right {
+    margin-top: 100px;
+}
+.right .social {
+    margin-top: 40px;
+}
+.social button {
+    border: none;
+    padding: 15px;
+    width: 50px;
+    font-size: 18px;
+    background:#fff;
+    margin-right: 10px;
+    border-radius: 96px;
+}
+.social .twitter{
+    color:#14c4f0;
+}
+.social .twitter:hover{
+    background:#09cafa;
+    color:#fff;
+    cursor: pointer;
+}
+.social .facebook {
+    color:#0753f7;
+}
+.social .facebook:hover{
+    background:#0350f7;
+    color:#fff;
+    cursor: pointer;
+}
+.social .instagram{
+    color:#fc068d;
+}
+.social .instagram:hover{
+    background: #fc068d;
+    color:#fff;
+    cursor: pointer;
+}
+.social .linkedin{
+    color:#2867B2;
+}
+.social .linkedin:hover{
+    background:#2867B2;
+    color:#fff;
+    cursor: pointer;
+}
+.social .youtube{
+    color:#c4302b;
+}
+.social .youtube:hover{
+    background:#c4302b;
+    color:#fff;
+    cursor: pointer;
+}
+.social .github{
+    color:black;
+}
+.social .github:hover{
+    background:black;
+    color:#fff;
+    cursor: pointer;
+}
